@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PulseCaller – Support</title>
+<style>
+  :root {
+    --red: #d62839;
+    --red-light: #ff6b6b;
+    --bg: #ffffff;
+    --text: #1a1a1a;
+    --muted: #6b6b6b;
+    --border: #eee;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--red-light), var(--red));
+    color: white;
+    padding: 56px 24px 40px;
+    text-align: center;
+  }
+  header .icon {
+    width: 84px;
+    height: 84px;
+    border-radius: 20px;
+    background: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.15);
+  }
+  header h1 {
+    margin: 0 0 6px;
+    font-size: 30px;
+  }
+  header p {
+    margin: 0;
+    opacity: 0.92;
+    font-size: 16px;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 40px 24px 80px;
+  }
+  section {
+    margin-bottom: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 10px;
+    margin-bottom: 16px;
+  }
+  .card {
+    background: #fafafa;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 24px;
+  }
+  a { color: var(--red); text-decoration: none; font-weight: 500; }
+  a:hover { text-decoration: underline; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 8px; }
+  footer {
+    text-align: center;
+    padding: 24px;
+    color: var(--muted);
+    font-size: 13px;
+    border-top: 1px solid var(--border);
+  }
+  footer a { color: var(--muted); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="icon">❤️</div>
+  <h1>PulseCaller</h1>
+  <p>Live-Herzfrequenz über AirPods Pro, direkt ins Ohr angesagt</p>
+</header>
+
+<main>
+  <section>
+    <h2>Support</h2>
+    <div class="card">
+      <p>Fragen, Probleme oder Feedback zu PulseCaller? Schreib mir einfach eine E-Mail:</p>
+      <p><a href="mailto:tobias.erkel@gmail.com">tobias.erkel@gmail.com</a></p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Häufige Fragen</h2>
+    <div class="card">
+      <p><strong>Welche Kopfhörer werden unterstützt?</strong><br>
+      AirPods Pro (2. oder 3. Generation) mit Herzfrequenzsensor. Ältere AirPods-Modelle messen keine Herzfrequenz.</p>
+      <p><strong>Warum sehe ich keine Herzfrequenz?</strong><br>
+      Stelle sicher, dass du der App in den Einstellungen Zugriff auf Apple Health (HealthKit) erlaubt hast und die AirPods während des Trainings korrekt im Ohr sitzen.</p>
+      <p><strong>Funktioniert die App mit einer Garmin-Uhr?</strong><br>
+      Ja, sofern Garmin Connect Herzfrequenzdaten mit Apple Health synchronisiert. Details dazu regelst du in der Garmin Connect App.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rechtliches</h2>
+    <div class="card">
+      <ul>
+        <li><a href="privacy.html">Datenschutzerklärung</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  © 2026 PulseCaller · <a href="impressum.html">Impressum</a> · <a href="privacy.html">Datenschutz</a>
+</footer>
+
+</body>
+</html>
